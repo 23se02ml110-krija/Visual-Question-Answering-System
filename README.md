@@ -47,7 +47,7 @@ viz-ask-any-main/
 ### 1. Clone the Repository
 
 ```bash
-
+https://github.com/23se02ml110-krija/Visual-Question-Answering-System.git
 ```
 
 ### 2. Navigate to Project Folder
