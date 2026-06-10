@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# Visual Question Answering (VQA) System
 
-## Project info
+An AI-powered Visual Question Answering (VQA) web application that allows users to upload an image and ask questions about its content. The system analyzes the image using computer vision and AI techniques to generate accurate and context-aware answers.
 
-**URL**: https://lovable.dev/projects/8180ce75-4bad-4783-924f-f63a3dd0f3f2
+## Features
 
-## How can I edit this code?
+- Upload images for analysis
+- Ask natural language questions about images
+- AI-generated answers based on image content
+- Modern and responsive user interface
+- Fast image processing
+- User-friendly experience
+- Secure environment variable support
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8180ce75-4bad-4783-924f-f63a3dd0f3f2) and start prompting.
+### Backend & Database
+- Supabase
 
-Changes made via Lovable will be committed automatically to this repo.
+### AI & Computer Vision
+- Visual Question Answering (VQA)
+- Machine Learning
+- Computer Vision
 
-**Use your preferred IDE**
+## Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```text
+viz-ask-any-main/
+├── public/
+├── src/
+├── supabase/
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+├── index.html
+└── README.md
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Installation
 
-Follow these steps:
+### 1. Clone the Repository
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 2. Navigate to Project Folder
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+cd viz-ask-any-main
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file and add your API keys and configuration.
+
+```env
+VITE_SUPABASE_URL=your_url
+VITE_SUPABASE_ANON_KEY=your_key
+```
+
+### 5. Run the Project
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 6. Open in Browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```text
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+## Usage
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Upload an image.
+2. Enter a question related to the image.
+3. Click the "Get Answer" button.
+4. View the AI-generated response.
 
-## What technologies are used for this project?
+## Future Improvements
 
-This project is built with:
+- Support multiple image formats
+- Real-time object detection
+- Voice-based questions
+- Multi-language support
+- Advanced AI models
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Author
 
-## How can I deploy this project?
+Developed by Krija
 
-Simply open [Lovable](https://lovable.dev/projects/8180ce75-4bad-4783-924f-f63a3dd0f3f2) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is intended for educational and research purposes.
